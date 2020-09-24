@@ -58,7 +58,7 @@ public class Calculator {
 	 *            a double
 	 * @return x/y
 	 */
-	public static double div(double x, double y) {
+	public static double divide(double x, double y) {
 		return x / y;
 	}
 
