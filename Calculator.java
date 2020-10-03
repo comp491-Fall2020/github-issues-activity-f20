@@ -45,7 +45,7 @@ public class Calculator {
 	 *            a double
 	 * @return x * y
 	 */
-	public static double mult(double x, double y) {
+	public static double multiply(double x, double y) {
 		return x * y;
 	}
 
@@ -141,7 +141,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the volume of a sphere with radius r.
 	 */
-	public static double sphVol(double r) {
+	public double sphVol(double r) {
 		return (4.0/3.0) * Math.PI * Math.pow(r,3);
 	}
 }
