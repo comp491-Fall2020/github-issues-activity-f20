@@ -71,7 +71,11 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the length of the hypotenuse of a right triangle with sides x and y.
 	 */
+<<<<<<< HEAD
+	public static double hypotenuse(double x, double y) {
+=======
 	public static double hypot(double x, double y) {
+>>>>>>> master
 		return Math.sqrt(x*x + y*y);
 	}
 
